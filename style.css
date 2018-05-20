@@ -1,0 +1,52 @@
+body {
+	background: url(https://upload.wikimedia.org/wikipedia/commons/7/7b/Radiohead_second_show_at_Le_Z%C3%A9nith_in_Paris._May_24th_2016.jpg)
+	no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+h1 {
+	color:#E21D85;
+	text-align: center;
+	font-size: 3em ;
+	font-family: 'News Cycle', sans-serif;
+	}
+
+.headline {
+		height: 55%;
+		width: 100%;
+		display: flex;
+		position: fixed;
+		align-items: center;
+		justify-content: center;
+	}
+
+.subscribe {
+		height: 155%;
+		width: 100%;
+		display: flex;
+		position: fixed;
+		align-items: center;
+		justify-content: center;
+	}
+
+.btn-primary {
+	background-color: #E21D85;
+	border-color: #E21D85;
+	font-family: 'News Cycle', sans-serif;
+	font-size: 1.5em;
+	border-radius: 25px;
+	padding: 1rem 3rem;
+}
+
+.btn-primary:hover {
+	background-color: #E7449A;
+	border-color: #E7449A;	
+}
+
+.btn-primary:active {
+	background-color: #DD0074;
+	border-color: #DD0074;
+}
